@@ -372,6 +372,62 @@
   padding-right: 5rem;
 }
 
+.community-head h2{
+  font-size: 42px;
+  color: #233c7b;
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.community-head p{
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+.community{
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.oneneuron-head h2{
+  font-size: 42px;
+  color: #233c7b;
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.oneneuron-head p {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+  font-size: 20px;
+}
+.oneneuron{
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.oneneuron-details{
+  font-weight: 300;
+  margin-top: 3rem;
+  line-height: 150%;
+  text-align: left;
+  margin-bottom: 2rem;
+
+}
 @media (max-width: 1200px) {
   .header-top {
     display: none;
@@ -494,6 +550,7 @@
   .achievers h2 {
     font-size: 20px;
   }
+  
 }
 
 @media (max-width: 720px) {
@@ -538,6 +595,14 @@
     width: 100%;
   }
   .affordable{
+    width: 100%;
+    flex-direction: column;
+  }
+  .community{
+    width: 100%;
+    flex-direction: column;
+  }
+  .oneneuron{
     width: 100%;
     flex-direction: column;
   }
