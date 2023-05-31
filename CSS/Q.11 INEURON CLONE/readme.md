@@ -2,7 +2,7 @@
 
 ## LIVE LINK
 
-[LINK]()
+[LINK](https://ineronclonekapil.netlify.app/)
 
 ### IMAGES
 
