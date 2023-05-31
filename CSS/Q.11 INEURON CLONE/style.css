@@ -497,6 +497,169 @@
   padding-top: 5rem;
   color: #233c7b;
 }
+/* STYLE FOR PRODUCTS SECTION */
+.products-head h2{
+  font-size: 42px;
+  color: #233c7b;
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.products{
+  width: 100%;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-bottom: 5rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  flex-wrap: wrap;
+}
+.product1{
+  width: 30%;
+}
+
+.product1 img {
+  width: 50%;
+  margin-left: 6rem;
+  
+}
+.product1 h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #233c7b;
+  text-align: center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+.product1 p {
+  color: #454545;
+  font-weight: 300;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.partnerd-institution-head h2{
+  font-size: 42px;
+  color: #233c7b;
+  text-align: center;
+  margin-top: 5rem;
+  font-weight: 600;
+}
+.partnerd-institution{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  padding-bottom: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+.institution{
+  width: 100%;
+}
+.institution img{
+ 
+  width: 15%;
+  margin-left: 3rem;
+}
+
+.footer{
+  width: 100%;
+  background-color: #233c7b;
+  color: #e0e0e0;
+  padding-bottom: 3rem;
+}
+.footer-section{
+  display: flex;
+  justify-content: center;
+  margin-inline: 1rem;
+  gap: 10px;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  /* flex-wrap: wrap; */
+}
+.footer-part1{
+  margin-top: 4rem;
+  width: 30%;
+}
+.social-icons{
+  margin-top: 1rem;
+  width: 10%;
+  display: flex;
+  gap: 12px;
+}
+.footer-line{
+  background-color: #e07c24;
+    /* max-width: 1440px; */
+    
+    height: 3px;
+    margin-top: 2rem;
+    width: 80%;
+    margin-bottom: 5rem;
+}
+.footer-address-full{
+    margin-left: 2rem;
+    margin-top: -2rem;
+}
+.footer-mail{
+  margin-top: 1rem;
+}
+.footer-mail-address{
+  margin-left: 2rem;
+    margin-top: -1.5rem;
+}
+.img-iso{
+  width: 20%;
+  margin-top: 2rem;
+}
+.iso-para{
+  text-align: left;
+}
+.footer-part2{
+  
+  width: 28%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.footer-menu{
+  list-style: none;
+}
+.footer-menu li{
+  padding-top: 1rem;
+}
+.footer-grid{
+  display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-menu2{
+  list-style: none;
+  
+}
+.footer-menu2 li{
+  padding-top: 1rem;
+}
+.footer-part3{
+  width: 30%;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}
+.footer-menu3{
+  list-style: none;
+  
+}
+.footer-menu3 li{
+  padding-top: 1rem;
+}
+.developer{
+  text-align: center;
+  margin-top: 3rem;
+}
 @media (max-width: 1200px) {
   .header-top {
     display: none;
@@ -598,6 +761,11 @@
     flex-direction: column;
     gap: 2rem;
   }
+  .product1 img {
+    width: 50%;
+    margin-left: 4rem;
+    
+  }
 }
 
 @media (max-width: 280px) {
@@ -679,11 +847,69 @@
     width: 100%;
     flex-direction: column;
   }
+  .products{
+    flex-direction: column;
+  }
+  .product1{
+    width: 90%;
+  }
+  .product1 img{
+    width: 100%;
+    display: inline-block;
+    margin-inline: auto;
+  }
+  .institution img{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width:590px){
   .hackthan-company h2{
     font-size: 28px;
 
+  }
+}
+
+@media (max-width:450px){
+  .hall-of-fame{
+    padding-inline: 1px;
+  }
+  .live-program{
+    padding-inline: 1px;
+  }
+  .affordable{
+    padding-inline: 1px;
+  }
+  .community{
+    padding-inline: 1px;
+  }
+  .oneneuron{
+      padding-inline: 1px;
+  }
+  .test-series{
+    padding-inline: 1px;
+  }
+  .products{
+    padding-inline: 1px;
+  }
+  .partnerd-institution{
+    padding-inline: 1px;
+  }
+  .footer-section{
+    margin-inline: 1px;
+  }
+}
+
+@media (max-width:1100px){
+  .footer-section{
+    flex-direction: column;
+  }
+  .footer-grid{
+    column-gap: 20px;
+  }
+  .img-iso{
+    width: 50%;
   }
 }
